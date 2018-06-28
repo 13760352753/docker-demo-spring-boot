@@ -10,9 +10,6 @@ WORKDIR /app
 
 
 COPY spring-boot-admin.jar /app/spring-boot-admin.jar
-
-EXPOSE 8080
-
-EXPOSE 8081
+RUN PWD
 
 CMD [ "java", "-jar", "spring-boot-admin.jar" ]
