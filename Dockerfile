@@ -8,7 +8,6 @@ RUN echo "$TIME_ZONE" > /etc/timezone
 
 WORKDIR /app
 
-RUN apt-get update
 
 COPY spring-boot-admin.jar /app/spring-boot-admin.jar
 
