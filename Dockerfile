@@ -10,6 +10,7 @@ WORKDIR /app
 
 
 COPY spring-boot-admin.jar /app/spring-boot-admin.jar
-RUN PWD
+
+RUN pwd
 
 CMD [ "java", "-jar", "spring-boot-admin.jar" ]
